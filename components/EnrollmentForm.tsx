@@ -25,6 +25,19 @@ const EnrollmentForm: React.FC = () => {
   };
 
   if (submitted) {
+    // Construct pre-filled message for Enrollment
+    const message = `*Executive Class 2026 Enrollment*
+    
+Name: ${formData.fullName}
+Email: ${formData.email}
+Country: ${formData.country}
+Level: ${formData.knowledgeLevel}
+Payment: ${formData.paymentMethod}
+
+I have submitted my application and would like to proceed with enrollment.`;
+
+    const whatsappUrl = `https://wa.link/zjb9kc?text=${encodeURIComponent(message)}`;
+
     return (
         <section id="enrollment" className="py-20 bg-slate-900">
             <div className="container mx-auto px-6 max-w-2xl text-center">
@@ -34,7 +47,7 @@ const EnrollmentForm: React.FC = () => {
                         Welcome to the future, {formData.fullName}. Check your WhatsApp/Email immediately for payment instructions and access details.
                     </p>
                     <a 
-                      href="https://wa.link/ynaedl"
+                      href={whatsappUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block px-8 py-3 bg-green-600 text-white rounded-lg font-bold hover:bg-green-700 transition-colors"

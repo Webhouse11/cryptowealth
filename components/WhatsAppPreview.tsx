@@ -21,7 +21,7 @@ const WhatsAppPreview: React.FC = () => {
               Unlike pre-recorded courses where you are left alone, our Executive Program includes direct access. Get your questions answered, analyze charts together, and navigate the market with a guide.
             </p>
             <a 
-              href="https://wa.link/ynaedl" 
+              href="https://wa.link/zjb9kc" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all shadow-lg shadow-green-900/30"

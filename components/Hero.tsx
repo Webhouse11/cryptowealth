@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
               Enroll Now <ArrowRight className="w-5 h-5" />
             </button>
             <a 
-              href="https://wa.link/ynaedl"
+              href="https://wa.link/zjb9kc"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold rounded-xl transition-all flex items-center justify-center gap-2"

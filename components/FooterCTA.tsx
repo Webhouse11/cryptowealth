@@ -235,7 +235,7 @@ const FooterCTA: React.FC = () => {
             </button>
             
             <a 
-              href="https://wa.link/ynaedl" 
+              href="https://wa.link/zjb9kc" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full md:w-auto px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg"
